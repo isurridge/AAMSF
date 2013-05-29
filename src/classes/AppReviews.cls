@@ -1,6 +1,6 @@
 public class AppReviews{
 
-    private final String posId;
+    private final String posId; 
     
     // The extension constructor initializes the private member
     // variable pos by using the getRecord method from the standard

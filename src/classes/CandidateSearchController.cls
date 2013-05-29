@@ -3,7 +3,7 @@ public class CandidateSearchController {
     String searchText;
     List<Candidate__c> results;
 
-    public String getSearchText(){
+    public String getSearchText(){ 
         return searchText;
     }
 

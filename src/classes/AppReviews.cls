@@ -29,7 +29,7 @@ public class AppReviews{
         //  the Type is determined by the "reviewType" variable 
         Boolean bFound = false;
         Integer index = 0;
-        if (jobApps.size() > 0){
+        if (jobApps.size() > 0){ 
             while((!bFound) && (index < jobApps.size())){               
                 if (jobApps[index].Id == JobAppId){
                     bFound = true;

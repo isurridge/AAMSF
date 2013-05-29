@@ -8,7 +8,7 @@ public class ForgotPasswordController {
 	
   	public PageReference forgotPassword() {
   		boolean success = Site.forgotPassword(username);
-  		PageReference pr = Page.ForgotPasswordConfirm;
+  		PageReference pr = Page.ForgotPasswordConfirm; 
   		pr.setRedirect(true);
   		
   		if (success) {  			

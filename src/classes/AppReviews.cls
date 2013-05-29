@@ -31,7 +31,7 @@ public class AppReviews{
         Integer index = 0;
         if (jobApps.size() > 0){ 
             while((!bFound) && (index < jobApps.size())){               
-                if (jobApps[index].Id == JobAppId){
+                if (jobApps[index].Id == JobAppId){ 
                     bFound = true;
                 } else {
                     index++;

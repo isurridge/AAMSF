@@ -3,10 +3,11 @@
     <property file="build.properties"/>
     <property environment="env"/>
 	
-	
+	<!--
 	<delete includeemptydirs="true">
-    <fileset dir="../src" includes="**/*"/>
+    <fileset dir="../src" includes="**/*"/> 
     </delete>
+	-->
 
     <!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged -->
     <target name="deploySF" description="Deploys the Twilio Helper Library for Salesforce to your organization">

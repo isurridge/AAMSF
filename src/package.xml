@@ -3,7 +3,8 @@
     <types>
         <members>AppReviews</members>
         <members>ChangePasswordController</members>
-        <name>ForgotPasswordController</name>
+        <members>ForgotPasswordController</members>
+		<name>ApexClass</name>
     </types>
     <types>
         <members>*</members>

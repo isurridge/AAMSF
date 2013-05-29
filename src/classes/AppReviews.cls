@@ -16,7 +16,7 @@ public class AppReviews{
             }
             return jobApps;
         }
-        set;
+        set; 
     }
     public ID JobAppId {get;set;}
     public String reviewType { get;set; }

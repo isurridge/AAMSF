@@ -32,7 +32,7 @@ public class AppReviews{
         if (jobApps.size() > 0){ 
             while((!bFound) && (index < jobApps.size())){               
                 if (jobApps[index].Id == JobAppId){ 
-                    bFound = true;
+                    bFound = true; 
                 } else {
                     index++;
                 }

@@ -34,7 +34,7 @@ testDups.add('Two');
 compareResult.add('Two');
 system.assertEquals(compareResult,
 testClass.dupEntries(testDups));
-}
+} 
 
 
 }

@@ -19,8 +19,8 @@ public class AppReviews{
         set;
     }
     public ID JobAppId {get;set;}
-    public String reviewType { get;set; }
-    public String candidateName {get;set;} 
+    public String reviewType { get;set; } 
+    public String candidateName {get;set;}  
     
     
     

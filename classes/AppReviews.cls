@@ -22,7 +22,7 @@ public class AppReviews{
     public String reviewType { get;set; }
     public String candidateName {get;set;} 
     
-   
+    
     
     public PageReference reviewsOfType(){
         // this function sorts through a job application's list of review records and creates a list of reviews all of the same Type
